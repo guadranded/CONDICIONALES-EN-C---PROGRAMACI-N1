@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 int main (){
-	cout << "Ingrese un número del 1 al 7 para representar un día de la semana";
+	cout << "Ingrese un nÃºmero del 1 al 7 para representar un dÃ­a de la semana";
 	int diasemana;
 	cin >> diasemana;
-	// uso de la condicional swicth para que muestre el día según el día elegido por el usuario
+	// uso de la condicional swicth para que muestre el dÃ­a segÃºn el dÃ­a elegido por el usuario
 	switch (diasemana){
 		case 1:
 			cout << "Lunes" <<endl;
@@ -13,7 +13,7 @@ int main (){
 			cout << "Martes" <<endl;
 			break;
 		case 3:
-			cout << "Miércoles" <<endl;
+			cout << "MiÃ©rcoles" <<endl;
 			break;
 		case 4:
 			cout << "Jueves" <<endl;
@@ -22,10 +22,10 @@ int main (){
 			cout << "Viernes" <<endl;
 			break;
 		case 6:
-			cout << "Sábado" <<endl;
+			cout << "SÃ¡bado" <<endl;
 			break;
 		case 7:
-			cout "Domingo" <<endl;
+			cout << "Domingo" <<endl;
 			break;
 	}
 	return 0;
