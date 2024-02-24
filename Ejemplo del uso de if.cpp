@@ -1,12 +1,10 @@
 #include <iostream>
 using namespace std;
 int main() {
-	//solicitar al usuario que ingrese su edad
 	cout << "Ingrese su edad";
 	int edad;
 	cin >> edad;
-	
-	//verificar si la edad es mayor, menor o igual a 18
+	// uso de la condicional if para verificar si la edad del usuario es mayor,menor o igual a 18
 	if (edad >= 18){
 		cout << "Eres mayor de edad" <<endl;
 	}
